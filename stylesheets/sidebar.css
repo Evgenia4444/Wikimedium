@@ -1,7 +1,7 @@
 nav {
   width: 300px;
   position: fixed;
-  top: 20px;
+  top: 90px;
   left: 20px;
 padding: 30px;
 box-sizing: border-box;
@@ -11,6 +11,12 @@ opacity: .1
 nav:hover {
   opacity: 1;
   transition: all .1s ease
+}
+
+nav > ul > li:first-child {
+  margin:0;
+  font-weight: bold;
+  font-size: 14px;
 }
 nav p{
   margin: 0;

@@ -3,11 +3,14 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 }
 a { color: inherit;
 }
+a {
+  box-sizing: border-box;
+}
 .menubar {
 display: flex;
 justify-content: space-between;
 align-items: center;
-height: 40px;
+height: 50px;
 padding: 0 20px;
 border-bottom: 1px solid #aaa;
 box-shadow: 0 4px 12px 2px rgba(0, 0, 0, .5);
