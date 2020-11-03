@@ -10,7 +10,7 @@ opacity: .1
 }
 nav:hover {
   opacity: 1;
-  transition: all .1s ease
+  transition: all .1s ease;
 }
 
 nav > ul > li:first-child {
