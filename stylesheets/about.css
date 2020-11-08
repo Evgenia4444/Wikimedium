@@ -17,13 +17,13 @@
 
 @media all and (min-device-width: 320px) and (max-device-width: 1577px) and (orientation: portrait) {
 body { min-width: 320px; }
-article * { width: calc(100% - 26px); }
+article * { width: calc(100% - 18px); }
 }
 /* iphone 5se */
 
-@media all and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: portrait) {
+@media all and (min-device-width: 375px) and (max-device-width: 2457.57px) and (orientation: portrait) {
 body { min-width: 375px; }
-article * { width: calc(100% - 30px); }
+article * { width: calc(100% - 18px); }
 }
 /* iphone x */
 
