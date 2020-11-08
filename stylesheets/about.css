@@ -6,30 +6,30 @@
    @media all and (max-width: 1020px) {
    	article img { width: 100%; }
    }
-      @media all and (min-device-width: 768px) and (max-device-width: 4639.72px) and (orientation: portrait) {
+      @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   article * { width: calc(100% - 34px);}
  }
 
- @media all and (min-device-width: 768px) and (max-device-width: 4639.72px) and (orientation: landscape) {
+ @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
 	.sidebar { display: none; }
 }
   /* ipad */
 
-@media all and (min-device-width: 320px) and (max-device-width: 2448.78px) and (orientation: portrait) {
+@media all and (min-device-width: 320px) and (max-device-width: 1577px) and (orientation: portrait) {
 body { min-width: 320px; }
-h1 { width: calc(100% - 18px); }
+article * { width: calc(100% - 18px); }
 }
 /* iphone 5se */
 
 @media all and (min-device-width: 375px) and (max-device-width: 2457.57px) and (orientation: portrait) {
 body { min-width: 375px; }
-h1 { width: calc(100% - 18px); }
+article * { width: calc(100% - 18px); }
 }
 /* iphone x */
 
-@media all and (min-device-width: 414px) and (max-device-width: 2462.42px) and (orientation: portrait) {
+@media all and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
 body { min-width: 414px; }
-article * { width: calc(100% - 18px); }
+article * { width: calc(100% - 30px); }
 }
 /* iphone 6/7/8 plus */
 
@@ -57,3 +57,15 @@ body { min-width: 972px; }
 article > * { width: calc(100% - 26px); }
 /* Ipad Pro */
  }
+
+ @media all and (min-device-width: 834px) and (max-device-width: 1280px) and (orientation: portrait) {
+ body { min-width: 834px; }
+ article > * { width: calc(100% - 26px); }
+ /* Ipad Pro */
+  }
+
+  @media all and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+  body { min-width: 1024px; }
+  article > * { width: calc(100% - 34px); }
+  /* Ipad Pro */
+   }
