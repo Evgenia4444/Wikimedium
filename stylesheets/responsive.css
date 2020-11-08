@@ -7,7 +7,7 @@
    	article img { width: 100%; }
    }
       @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  article * { width: calc(100% - 40px);}
+  article * { width: calc(100% - 28px);}
  }
 
  @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
