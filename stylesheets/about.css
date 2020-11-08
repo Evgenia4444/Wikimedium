@@ -15,15 +15,15 @@
 }
   /* ipad */
 
-@media all and (min-device-width: 320px) and (max-device-width: 1577px) and (orientation: portrait) {
+@media all and (min-device-width: 320px) and (max-device-width: 2448.78px) and (orientation: portrait) {
 body { min-width: 320px; }
-article * { width: calc(100% - 18px); }
+h1 { width: calc(100% - 18px); }
 }
 /* iphone 5se */
 
 @media all and (min-device-width: 375px) and (max-device-width: 2457.57px) and (orientation: portrait) {
 body { min-width: 375px; }
-article * { width: calc(100% - 18px); }
+h1 { width: calc(100% - 18px); }
 }
 /* iphone x */
 
