@@ -6,20 +6,20 @@
    @media all and (max-width: 1020px) {
    	article img { width: 100%; }
    }
-      @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   article img { width: calc(100%);}
  }
 
- @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 article * { width: calc(100% - 40px);}
 }
 
- @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+ @media only screen (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
 	.sidebar { display: none; }
 }
   /* ipad */
 
-@media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
 body { min-width: 320px; }
 article img { width: calc(100%);}
 article * { width: calc(100% - 40px); }
