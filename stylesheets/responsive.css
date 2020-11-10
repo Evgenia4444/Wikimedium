@@ -28,7 +28,6 @@ article h1 {font-size: 24px}
 article h2 {font-size: 21px}
 .index_item {width: calc(100% - 40px)}
 }
-
 /* iphone 5se */
 
 @media all and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: portrait) {
