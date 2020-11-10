@@ -35,8 +35,13 @@ article * { width: calc(100% - 30px); }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
 body { min-width: 375px; }
+section {font-size: 18px}
+div img { width: calc(100% - 30px);}
 article * { width: calc(100% - 30px); }
-article img {width: calc(100% - 30px);}
+article p {font-size: 18px}
+article h1 {font-size: 24px}
+article h2 {font-size: 21px}
+
 }
 /* iphone 6/7/8 */
 
